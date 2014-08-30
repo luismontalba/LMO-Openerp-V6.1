@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>	
+	<record id="view_account_ordering1_tree" model="ir.ui.view">
+		<field name="name">view.account.ordering1.tree</field>
+		<field name="model">account.move</field>
+		<field name="type">tree</field>
+		<field name="inherit_id" ref="account.view_move_tree"/>
+		<field name="arch" type="xml">
+			<field name="name" position="before">
+				<field name="order"/>
+			</field>
+		</field>
+	</record>
+        <record id="view_account_ordering2_tree" model="ir.ui.view">
+		<field name="name">view.account.ordering2.tree</field>
+		<field name="model">account.move</field>
+		<field name="type">tree</field>
+		<field name="inherit_id" ref="account.view_account_move_filter"/>
+		<field name="arch" type="xml">
+			<field name="period_id" position="before">
+				<field name="fiscalyear_id" widget="selection" />
+			</field>
+		</field>
+	</record>
+
+        <record id="view_account_ordering3_tree" model="ir.ui.view">
+		<field name="name">view.account.ordering3.tree</field>
+		<field name="model">account.move</field>
+		<field name="type">tree</field>
+		<field name="inherit_id" ref="account.view_move_tree"/>
+		<field name="arch" type="xml">
+                        <field name="name" position="after">
+                            <field name="fiscalyear_id"/>
+                        </field>
+                </field>
+	</record>
+</data>
+</openerp>

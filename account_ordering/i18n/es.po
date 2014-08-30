@@ -1,0 +1,120 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* account_ordering
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-07 16:19+0000\n"
+"PO-Revision-Date: 2014-08-07 18:24+0100\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#. module: account_ordering
+#: model:ir.actions.report.xml,name:account_ordering.report_account_ordering_v
+msgid "Entry with date order field "
+msgstr "Asientos con orden por fecha "
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "End of report"
+msgstr "Final del informe"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: account_ordering
+#: constraint:account.move:0
+msgid "You can not create more than one move per period on centralized journal"
+msgstr ""
+"No puede crear más de un movimiento por periodo en un diario centralizado"
+
+#. module: account_ordering
+#: model:ir.model,name:account_ordering.model_account_move
+msgid "Account Entry"
+msgstr "Asiento contable"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Description"
+msgstr "Descripción"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Fiscal year -"
+msgstr "Ejercicio fiscal -"
+
+#. module: account_ordering
+#: field:account.move,order:0 report:account.move.report.order.h:0
+#: report:account.move.report.order.v:0
+msgid "Ord."
+msgstr "Ord."
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Journal"
+msgstr "Diario"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Key"
+msgstr "Clave"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Credit"
+msgstr "Haber"
+
+#. module: account_ordering
+#: field:account.move,fiscalyear_id:0
+msgid "Fiscal year"
+msgstr "Año fiscal"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Account name"
+msgstr "Nombre de la cuenta"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Debit"
+msgstr "Debe"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: account_ordering
+#: model:ir.actions.report.xml,name:account_ordering.report_account_ordering_h
+msgid "Entry landscape with date order field"
+msgstr "Asientos apaisados con orden por fecha"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Journal ledger  -"
+msgstr "Libro diario  -"
+
+#. module: account_ordering
+#: report:account.move.report.order.h:0 report:account.move.report.order.v:0
+msgid "Page"
+msgstr "Página"
