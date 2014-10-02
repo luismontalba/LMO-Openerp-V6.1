@@ -131,3 +131,8 @@ msgstr ""
 msgid "Page"
 msgstr ""
 
+#. module: account_ordering
+#: report:account.move.report.order.h:0
+#: report:account.move.report.order.v:0
+msgid "of"
+msgstr ""

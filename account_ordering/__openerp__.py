@@ -19,27 +19,23 @@
 ##############################################################################
 {
     "name": "Account ordering",
-    "version": "1.0",
-    "author": "Luis Marti­nez Ontalba",
+    "version": "1.1",
+    "author": "Luis Martinez Ontalba",
     "website": "http://www.tecnisagra.com",
     "category": "Enterprise Specific Modules",
     "description": """
-This module create a new function field in account moves model showing the relative position of moves ordered by date.
-The module includes a new report showing the journal ledger with the new ordering field added. This report is triggered
-from the tree view in the account move menu.
-Code is based on previous work by Zikzakmedia, Pexego and others. 
-
+This module create a new function field in account moves model showing the relative position of moves ordered by date. The module includes a new report showing the journal ledger with the new ordering field added. This report is triggered from the tree view in the account move menu. Code is based on previous work by Zikzakmedia, Pexego and others. 
             """,
     "depends": [
-                'account',
-        ],
+        'account',
+    ],
     "init_xml": [
-        ],
+    ],
     "demo_xml": [
 	],
     "update_xml": [
         'account_ordering_view.xml',
-	'account_ordering_report.xml',
+	    'account_ordering_report.xml',
 	],
     "installable": True,
     "active": False,

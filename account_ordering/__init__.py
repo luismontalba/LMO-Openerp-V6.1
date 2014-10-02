@@ -20,7 +20,6 @@
 
 """
 Account ordering
-
 """
 
 import account_ordering

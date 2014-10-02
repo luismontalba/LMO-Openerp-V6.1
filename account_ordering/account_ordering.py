@@ -19,6 +19,7 @@
 ##############################################################################
 
 from osv import fields, osv
+from tools.translate import _
 
 class account_ordering(osv.osv):
     _inherit = "account.move"

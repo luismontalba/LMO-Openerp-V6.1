@@ -10,7 +10,7 @@
           -->
           <setFont name="Helvetica" size="8"/>
           <!--<drawString x="1cm" y="0.9cm">[[formatLang(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), date_time=True)]]</drawString>-->
-          <drawRightString x="28.7cm" y="0.9cm">Page <pageNumber/> de <pageCount/></drawRightString>
+          <drawRightString x="28.7cm" y="0.9cm">Page <pageNumber/> of <pageCount/></drawRightString>
       </pageGraphics>
     </pageTemplate>
   </template>
@@ -56,6 +56,7 @@
     <paraStyle name="TitleText2" fontName="Helvetica-Bold" fontSize="15.0" leading="25" alignment="CENTER"/>
     <paraStyle name="FieldDescription" fontName="Helvetica-Bold" fontSize="9.0" leading="13" alignment="JUSTIFY"/>
     <paraStyle name="FieldDescriptionCenter" fontName="Helvetica-Bold" fontSize="9.0" leading="13" alignment="CENTER"/>
+	<paraStyle name="FieldDescriptionRight" fontName="Helvetica-Bold" fontSize="9.0" leading="13" alignment="RIGHT"/>
     <paraStyle name="FieldDescriptionItalic" fontName="Helvetica-BoldOblique" fontSize="9.0" leading="13" alignment="JUSTIFY"/>
     <paraStyle name="Detail" fontName="Helvetica" fontSize="8.0" leading="13" alignment="LEFT"/>
     <paraStyle name="DetailRight" fontName="Helvetica" fontSize="8.0" leading="13" alignment="RIGHT"/>
@@ -107,10 +108,10 @@
           <para style="FieldDescriptionItalic">Description</para>
         </td>
         <td>
-          <para style="FieldDescriptionCenter">Debit</para>
+          <para style="FieldDescriptionRight">Debit</para>
         </td>
         <td>
-          <para style="FieldDescriptionCenter">Credit</para>
+          <para style="FieldDescriptionRight">Credit</para>
         </td>
       </tr>
       </blockTable>
