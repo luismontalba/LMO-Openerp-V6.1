@@ -13,7 +13,7 @@ Se añade un informe para el diario contable en el que aparece este nuevo campo.
 Se ha añadido un nuevo filtro por ejercicio fiscal a la lista de asientos
  para facilitar la selección de todos los pertenecientes a un mismo año.
 
-account_summary:
+l10n_es_account_summary:
 ----------------
 Este modulo crea un tablero de resumen de datos contables de interés:
  Ingresos, gastos y resultados agrupados por año fiscal y por periodo
