@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Odoo - Account ordering
-#    Copyright(C)2014 Luis Martinez Ontalba (www.tecnisagra.com).
-#
+#    Odoo - Account summary
+#    Copyright (C) 2014 Luis Martinez Ontalba (www.tecnisagra.com).
+#      
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published
 #    by the Free Software Foundation, either version 3 of the License, or
@@ -19,11 +19,7 @@
 #
 ##############################################################################
 
-"""
-Account ordering
-"""
-
-import account_ordering
+import account_summary
 
 
 

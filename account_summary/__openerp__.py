@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Odoo - Account ordering
+#    Odoo - Account summary
 #    Copyright (C) 2014 Luis Martinez Ontalba (www.tecnisagra.com).
-#       
+#	 
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published
 #    by the Free Software Foundation, either version 3 of the License, or
@@ -19,24 +19,28 @@
 #
 ##############################################################################
 {
-    "name": "Account ordering",
+    "name": "Account summary",
     "version": "1.1",
     "author": "Luis Martinez Ontalba",
     "website": "http://www.tecnisagra.com",
     "category": "Enterprise Specific Modules",
     "description": """
-This module create a new function field in account moves model showing the relative position of moves ordered by date. The module includes a new report showing the journal ledger with the new ordering field added. This report is triggered from the tree view in the account move menu. Code is based on previous work by Zikzakmedia, Pexego and others. 
+	Este modulo crea un tablero de resumen de datos contables de interés:
+		* Ingresos, gastos y resultado:
+			* Agrupado por año fiscal
+			* Agrupado por periodo fiscal en el año en curso
+		* Activo a corto, pasivo a corto y fondo de maniobra (diferencia entre ambos) 
+	Al tablero se accede desde el menu Contabilidad/Contabilidad/Resumen de cuentas
             """,
     "depends": [
-        'account',
+        'account', 'l10n_es_account', 'account_payment'
     ],
     "init_xml": [
     ],
     "demo_xml": [
 	],
     "update_xml": [
-        'account_ordering_view.xml',
-	    'account_ordering_report.xml',
+        'account_summary.xml',
 	],
     "installable": True,
     "active": False,
