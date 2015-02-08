@@ -147,8 +147,7 @@
 	<field name="view_type">form</field>
 	<field name="view_mode">tree</field>
 	<field name="view_id" ref="view_account_summary_tree4"/>
-	<field name="domain">[('year','=',time.strftime('%Y')),
-('account_code','in',
+	<field name="domain">[('account_code','in',
 ('30','31','32','33','34','35','36','37','38','39',
 '43','44','53','54','55','57'))]</field>
 </record>
@@ -175,8 +174,7 @@
 	<field name="view_type">form</field>
 	<field name="view_mode">tree</field>
 	<field name="view_id" ref="view_account_summary_tree5"/>
-	<field name="domain">[('year','=',time.strftime('%Y')),
-('account_code','in',
+	<field name="domain">[('account_code','in',
 ('40','41','42','45','46','47','48','49',
 '50','51','52','56','58','59'))]</field>
 </record>
@@ -203,8 +201,7 @@
 	<field name="view_type">form</field>
 	<field name="view_mode">tree</field>
 	<field name="view_id" ref="view_account_summary_tree6"/>
-	<field name="domain">[('year','=',time.strftime('%Y')),
-('account_code','in',
+	<field name="domain">[('account_code','in',
 ('30','31','32','33','34','35','36','37','38','39',
 '40','41','42','43','44','45','46','47','48','49',
 '50','51','52','53','54','55','56','57','58','59'))]</field>
