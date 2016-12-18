@@ -1,7 +1,7 @@
-OpenERP6.1
-==========
+OpenERP 6.1 modules
+===================
 
-Módulos para OpenERP 6.1
+Some modules for spanish localization (spanish language used)
 
 account_ordering:
 -----------------
